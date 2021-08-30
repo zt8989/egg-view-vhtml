@@ -36,7 +36,7 @@ $ npm i egg-view-vhtml --save
 // {app_root}/config/plugin.js
 exports.viewVhtml = {
   enable: true,
-  package: 'egg-view-vhtml',
+  package: "egg-view-vhtml",
 };
 ```
 
@@ -44,8 +44,7 @@ exports.viewVhtml = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.viewVhtml = {
-};
+exports.vhtml = {};
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.
